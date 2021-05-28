@@ -6105,8 +6105,8 @@ function file_code(path) {
 </div>
 <a href="${href}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
 
-<script src="//cdn.jsdelivr.net/gh/AnshuvaOfficialGitHub/GD-Simple-index/js/ace.js"></script>
-<script src="//cdn.jsdelivr.net/gh/AnshuvaOfficialGitHub/GD-Simple-index/js/ext-language_tools.js"></script>
+<script src="//cdn.jsdelivr.net/gh/AnshuvaOfficialGitHub/GD-Simple-index@1.0/js/ace.js"></script>
+<script src="//cdn.jsdelivr.net/gh/AnshuvaOfficialGitHub/GD-Simple-index@1.0/js/ext-language_tools.js"></script>
 	`;
   $("#content").html(content);
   $.get(path, function (data) {
