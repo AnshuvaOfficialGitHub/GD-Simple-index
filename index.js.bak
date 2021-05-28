@@ -2,7 +2,7 @@ const authConfig = {
   "siteName": "GD-Simple-index", // WebSite Name
   //"siteIcon": "https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Drive_icon_%282020%29.svg",
   "siteIcon": "https://images.vexels.com/media/users/3/135679/isolated/preview/b163555243801798e8d9c3e64c704107-cloud-storage-and-download-icon-by-vexels.png",
-  "version": "4.28", // VersionControl, do not modify manually
+  "version": "1.0", // VersionControl, do not modify manually
 // client_id & client_secret
   "client_id": "202264815644.apps.googleusercontent.com", // Client ID
   "client_secret": "X4Z3ca8xfWDb1Voo-F9a7ZxJ", // Client Secret
@@ -23,19 +23,11 @@ const authConfig = {
   "roots": [
     {
       id: "root", //you can use folderid other than root but then search wont work
-      name: "GD-Simple-index",
-      user: '',
-      pass: '',
       protect_file_link: false //true or false
-    } /* ,
-    {
-        id: "drive_id",
-        name: "Personal Drive II",
-        user: 'username',
-        pass: 'password',
-        protect_file_link: false
-      } */
-  ],
+	  // "auth": {"username":"password"} // Remove double slash before "auth" to activate id password protection
+    },
+   
+   ],
 /**
   * The number displayed on each page of the file list page. [Recommended setting value is between 100 and 1000];
   * If the setting is greater than 1000, it will cause an error when requesting drive api;
@@ -68,8 +60,8 @@ const uiConfig = {
   "dark_mode": true, //true or false
   "hide_madewithlove": true, // Set this to true if you want to hide A text at the bottom of the page
   "helpURL": "https://github.com/AnshuvaOfficialGitHub", // Provide the URL of the help page(instructions for using the index). Leave this empty if you want to hide the help icon. Providing a URL will open the help page in a new tab. (You can use telegra.ph to write instructions)
-  "main_color": "red", // blue-grey | red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange | brown | grey
-  "accent_color": "red" // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange
+  "main_color": "blue-grey", // blue-grey | red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange | brown | grey
+  "accent_color": "blue" // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange
 // blue-grey and blue suit with both light and dark themes
 };
 
