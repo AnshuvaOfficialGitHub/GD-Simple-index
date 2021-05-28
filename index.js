@@ -66,7 +66,7 @@ const authConfig = {
 const uiConfig = {
   "theme": "material", // DO NOT set it to classic
   "dark_mode": {cheems_theme}, //true or false
-  //"hide_madewithlove": {cheems_hide_madewithlove}, // Set this to true if you want to hide made-with-love text at the bottom of the page
+  //"hide_madewithlove": true, // Set this to true if you want to hide made-with-love text at the bottom of the page
   "helpURL": "https://github.com/AnshuvaOfficialGitHub", // Provide the URL of the help page(instructions for using the index). Leave this empty if you want to hide the help icon. Providing a URL will open the help page in a new tab. (You can use telegra.ph to write instructions)
   "main_color": "{cheems_main_color}", // blue-grey | red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange | brown | grey
   "accent_color": "{cheems_accent_color}" // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange
