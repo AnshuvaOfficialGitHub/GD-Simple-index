@@ -113,7 +113,7 @@ function html(current_drive_order = 0, model = {}) {
     window.current_drive_order = ${current_drive_order};
     window.UI = JSON.parse('${JSON.stringify(uiConfig)}');
   </script>
-  <script src="https://rawcdn.githack.com/AnshuvaOfficialGitHub/GD-Simple-index/a3c286b2d4615f2ffb546e135c5ed41e76ced622/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/AnshuvaOfficialGitHub/GD-Simple-index@1.0/app.js"></script>
 </head>
 <body>
 </body>
