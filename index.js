@@ -2,7 +2,7 @@ const authConfig = {
   "siteName": "{cheems_site_name}", // WebSite Name // Like-GD-Simple-index
   //"siteIcon": "https://upload.wikimedia.org/wikipedia/commons/1/12/Google_Drive_icon_%282020%29.svg",
   "siteIcon": "https://images.vexels.com/media/users/3/135679/isolated/preview/b163555243801798e8d9c3e64c704107-cloud-storage-and-download-icon-by-vexels.png",
-  "version": "4.28", // VersionControl, do not modify manually
+  "version": "1.0", // VersionControl, do not modify manually
 // client_id & client_secret - PLEASE USE YOUR OWN!
   "client_id": "{cheems_client_id}", // Client ID
   "client_secret": "{cheems_client_secret}", // Client Secret
